@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'icomoon-app';
+  src:  url('../fonts/icomoon-app.eot?bl8hk1');
+  src:  url('../fonts/icomoon-app.eot?bl8hk1#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon-app.ttf?bl8hk1') format('truetype'),
+    url('../fonts/icomoon-app.woff?bl8hk1') format('woff'),
+    url('../fonts/icomoon-app.svg?bl8hk1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="appicon-"], [class*=" appicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-app' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.appicon-panel-new:before {
+  content: "\e90c";
+}
+.appicon-analytics-reports:before {
+  content: "\e900";
+}
+.appicon-comp-payment:before {
+  content: "\e901";
+}
+.appicon-dashboard:before {
+  content: "\e902";
+}
+.appicon-demo-mapping:before {
+  content: "\e903";
+}
+.appicon-departments:before {
+  content: "\e904";
+}
+.appicon-escalation-config:before {
+  content: "\e905";
+}
+.appicon-manage-catagory:before {
+  content: "\e906";
+}
+.appicon-manage-grievances:before {
+  content: "\e907";
+}
+.appicon-manage-holiday:before {
+  content: "\e908";
+}
+.appicon-manage-master:before {
+  content: "\e909";
+}
+.appicon-manage-sub-catagory:before {
+  content: "\e90a";
+}
+.appicon-MIS-reports:before {
+  content: "\e90b";
+}
+.appicon-post-complaint:before {
+  content: "\e90d";
+}
+.appicon-publish:before {
+  content: "\e90e";
+}
+.appicon-registered-gievance:before {
+  content: "\e90f";
+}
+.appicon-reports:before {
+  content: "\e910";
+}
+.appicon-sla-configuration:before {
+  content: "\e911";
+}
+.appicon-unpublish:before {
+  content: "\e912";
+}

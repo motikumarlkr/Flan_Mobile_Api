@@ -1,0 +1,48 @@
+.m-b-0 {margin-bottom: 0 !important;}
+.p-t-0 {padding-top: 0 !important;}
+#container.mainnav-lg .brand-title {width: 400px; }
+.nodata-found { margin: 10% auto; text-align: center; color: #a9a9a9; font-weight: normal;}
+.panel-body { position: relative;}
+.brand-text {font-size: 30px;font-weight: normal;text-transform: uppercase;}
+.panel-title { float: left;  font-size: 1.2em;}
+.btn-default i {font-weight: bold;}
+.panel-heading { color: #2c334c; border-bottom: 1px solid rgba(0, 0, 0, 0.05);}
+#container .brand-icon {width: auto; margin-right: 4px !important;}
+.showfilterbox {position: absolute; right: 0; left: auto; top:2px; width: 100%; padding: 25px 15px 15px 15px; z-index: 1; background-color: #f1f1f1; -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.15);box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.15);}
+.showfilterbox .form-group {margin-bottom: 8px;}
+.showfilterbox .form-group:last-child {margin-bottom: 0;}
+.showfilterbox .colon{left: -2px;}
+.showfilterbox .control-label{font-size: 12px;}
+.closefilterbtn {position: absolute; top:3px; right: 5px;}
+.colon { position: absolute; left: 0; top: 7px;}
+.menuapps-sec { padding: 15px 0px 15px 15px;}
+.menuapps-sec a img { height: 60px; display: block; margin: 0px auto 5px;}
+.menuapps-sec a {min-height: 106px;}
+.module-prtalets {min-width: 380px;}
+#indicateIcon {color: #FFF; margin-right: 15px;    margin-top:6px;
+    display: inline-block}
+.searchopen {display: inline-block;cursor: pointer;padding: 6px 10px; margin-bottom: 10px;}
+.search-sec .form-control {    margin-bottom: 0px;}
+.search-sec .form-group {margin-bottom: 10px;}
+.search-sec .form-group label {margin-top: 0;}
+.search-sec {padding: 10px 15px 2px; margin-top: 15px;background: #eff2f5;}
+.add-container {
+    background-color: #fff;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 15px;
+}
+.button-tabs li a:hover, .button-tabs li a:focus {
+    background: #25476a;
+}
+#container.mainnav-sm .navbar-brand .brand-title {width: 400px;}
+#container.mainnav-sm .brand-icon { width: auto; height: 60px;}
+.loader-gif{
+    position: absolute;
+    z-index: 99999;
+    height: 98px;
+    top: 400px;
+    left: 850px;
+    display:none;
+}

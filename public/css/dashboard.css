@@ -1,0 +1,101 @@
+.dashboardcon{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    
+}
+.small-portlet{
+    background: #fff;
+    border-radius: 3px;
+    margin: 0px;
+    display:  table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.small-portlet h4{
+    font-size: 2rem;
+    color: rgba(251, 251, 251, 0.81);
+    display:  table-cell;
+    vertical-align:  middle;
+    width: 25%;
+    padding: 10px 15px;
+    line-height: 26px;
+    background: rgba(0, 0, 0, 0.12);
+}
+.small-portlet h4:after{left: 0px;}
+ .value-grid{
+    display: table-cell;
+    padding: 12px 20px;
+    width: 70%;
+    vertical-align:  middle;
+    border-left: 0px solid rgba(243, 243, 243, 0.19);
+}
+ .value-grid .value-cell{
+    display: block;
+    vertical-align:  middle;
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px dashed rgba(232, 232, 232, 0.45);
+    color: #fff;
+}
+ .value-grid .value-cell span{
+    float:  right;
+    font-size: 2.5rem;
+    margin-top: -8px;
+}
+.value-grid .value-cell:last-child{border-bottom: 0px solid #000;}
+.bg-success{background-color: #8bc34a;}
+.bg-purple{background-color: #c56726;}
+.bg-sky{background-color:#03a9f4;}
+.bg-yellow{background-color: #d29609;}
+.bg-seagreen{background-color: #26a69a;}
+.bg-lightred{background-color:#f44336;}
+.highcharts-credits{color: #fff!important;fill: #fff!important}
+.chartdiv{height: 300px;}
+.chartpanel{}
+.chartpanel h3{
+    font-size: 2rem;
+    padding-top: 8px;
+}
+.chartpanel .filter{
+    float:  right;
+    margin: 15px;
+    width: 150px;
+}
+.chartpanel .filter select{
+    width: 100%;
+    height: 32px;
+    border-color: #dadada;
+    padding: 4px 8px;
+    border-radius: 2px;
+}#content-container:before {
+    
+	height: 90px;}
+@media all and (max-width: 1440px){.small-portlet h4 {
+    font-size: 1.6rem;
+   
+    padding: 7px 14px;
+    line-height: 22px;
+    
+}
+.value-grid {
+    display: table-cell;
+	padding: 3px 15px;}
+.value-grid .value-cell {
+  
+    padding:10px 0px;
+	font-size: 1.3rem;}
+	.value-grid .value-cell span {
+ 
+    font-size: 2.2rem;
+  
+}
+	.chartpanel h3 {
+    font-size: 1.8rem;
+   
+}
+	.chartdiv{height: 250px;}
+}
+@media all and (max-width: 1280px){}
+@media all and (max-width: 1050px){}
+@media all and (max-width: 800px){}
